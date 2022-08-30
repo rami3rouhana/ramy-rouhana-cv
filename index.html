@@ -1,0 +1,67 @@
+<html>
+
+    <head>
+        <title>Ramy Rouhana CV</title>
+    </head>
+
+    <body>
+        <div class="profile"  >
+            <div class="image-holder">
+                <img src="./images/profile.jpg" width="150" height="150" />
+                <div>
+                    <table >
+                        <tr >
+                            <td >First Name: Ramy</td>
+                            <td >Last Name: Rouhana</td>
+                        </tr>
+                        <tr>
+                            <td>Status: Single</td>
+                            <td>Age: 26</td>
+                        </tr>
+                    </table>
+
+                    <br/>
+                    <b><u>Hobbies:</u></b>
+                    <ul>
+                        <li>Swimming</li>
+                        <li>Snowboarding</li>
+                        <li>Coding</li>
+                    </ul>
+
+                    <b><u>About Me:</u></b>
+                    <p>
+                        Welcome to my portfolio, and you're welcomed to ask me anything in the questionair next to this.
+                    </p>
+
+                    <h3>Contact me on:<a href="https://www.facebook.com/"><img src="./images/facebook-logo.png" width="50" height="30"/></a><a href="https://www.twitter.com/"><img src="./images/twitter-logo.png" width="30" height="27"/></a><a href="https://www.youtube.com/"><img src="./images/youtube-logo.svg" width="55" height="33"/></a></h3>
+                </div>
+            </div>
+            <div class="form" >
+                <form action="./.php" >
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name..."><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name..."><br><br>
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="genders">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Others...</option>
+                    </select>
+                    <p><label for="review">Review of my page:</label></p>
+                    <ul class="rate-area">
+                        <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" title="Bad">1 star</label>
+                        <input type="radio" id="2-star" name="rating" value="2" /><label for="2-star" title="Not Good">2 stars</label>
+                        <input type="radio" id="3-star" name="rating" value="3" /><label for="3-star" title="Average">3 stars</label>
+                        <input type="radio" id="4-star" name="rating" value="4" /><label for="4-star" title="Good">4 stars</label>
+                        <input type="radio" id="5-star" name="rating" value="5" /><label for="5-star" title="Amazing">5 stars</label>
+                      </ul>
+                    <textarea id="review" name="review" rows="4" cols="50" placeholder="Please place a review of my page over here..."></textarea>>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </body>
+
+</html>
